@@ -1,0 +1,6 @@
+framework module ConstraintLib {
+  umbrella header "ConstraintLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

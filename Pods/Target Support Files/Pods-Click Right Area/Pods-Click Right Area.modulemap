@@ -1,0 +1,6 @@
+framework module Pods_Click_Right_Area {
+  umbrella header "Pods-Click Right Area-umbrella.h"
+
+  export *
+  module * { export * }
+}

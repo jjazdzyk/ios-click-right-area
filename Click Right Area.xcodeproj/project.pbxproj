@@ -7,21 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40B5D08389B4268C558788F0 /* Pods_Click_Right_Area.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0CAE2DCD7B9FAD686A6429 /* Pods_Click_Right_Area.framework */; };
+		A484B0A0210F17DC003BCCA0 /* CircleShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B09F210F17DC003BCCA0 /* CircleShapeView.swift */; };
+		A484B0A2210F19EF003BCCA0 /* ShapeViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0A1210F19EF003BCCA0 /* ShapeViewFactory.swift */; };
+		A484B0A4210F1A7B003BCCA0 /* SquareShapeViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0A3210F1A7B003BCCA0 /* SquareShapeViewFactory.swift */; };
+		A484B0A6210F1DF4003BCCA0 /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0A5210F1DF4003BCCA0 /* ShapeFactory.swift */; };
+		A484B0A8210F1E2D003BCCA0 /* SquareShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0A7210F1E2D003BCCA0 /* SquareShapeFactory.swift */; };
+		A484B0AA210F221A003BCCA0 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0A9210F221A003BCCA0 /* CGFloatExtension.swift */; };
+		A484B0AC210F2849003BCCA0 /* CircleShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0AB210F2849003BCCA0 /* CircleShapeFactory.swift */; };
+		A484B0AE210F2B93003BCCA0 /* CircleShapeViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0AD210F2B93003BCCA0 /* CircleShapeViewFactory.swift */; };
+		A484B0B2210F2E78003BCCA0 /* ShapeViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0B1210F2E78003BCCA0 /* ShapeViewBuilder.swift */; };
+		A484B0B4210F31C3003BCCA0 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0B3210F31C3003BCCA0 /* Turn.swift */; };
+		A484B0B6210F3395003BCCA0 /* TurnController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0B5210F3395003BCCA0 /* TurnController.swift */; };
+		A484B0B9210F4012003BCCA0 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0B8210F4012003BCCA0 /* Strategy.swift */; };
+		A484B0BB210F4060003BCCA0 /* Level1Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0BA210F4060003BCCA0 /* Level1Strategy.swift */; };
+		A484B0BD210F52CA003BCCA0 /* Level2Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0BC210F52CA003BCCA0 /* Level2Strategy.swift */; };
+		A484B0BF210F55A1003BCCA0 /* EquilateralTriangleShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0BE210F55A1003BCCA0 /* EquilateralTriangleShapeFactory.swift */; };
+		A484B0C1210F5651003BCCA0 /* EquilateralTriangleShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0C0210F5651003BCCA0 /* EquilateralTriangleShapeView.swift */; };
+		A484B0C3210F5C3A003BCCA0 /* EquilateralTriangleShapeViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0C2210F5C3A003BCCA0 /* EquilateralTriangleShapeViewFactory.swift */; };
+		A484B0C5210F5CEB003BCCA0 /* Level3Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0C4210F5CEB003BCCA0 /* Level3Strategy.swift */; };
+		A484B0C721103A0E003BCCA0 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0C621103A0E003BCCA0 /* StartViewController.swift */; };
+		A484B0C921103AC7003BCCA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A484B0C821103AC7003BCCA0 /* GoogleService-Info.plist */; };
+		A484B0CB211058E8003BCCA0 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0CA211058E8003BCCA0 /* StartView.swift */; };
+		A484B0CD21105CF7003BCCA0 /* CRALoggingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0CC21105CF7003BCCA0 /* CRALoggingTextField.swift */; };
+		A484B0CF21106438003BCCA0 /* CRAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484B0CE21106438003BCCA0 /* CRAButton.swift */; };
 		A4D3BB1120FCC549000D8D2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3BB1020FCC549000D8D2A /* AppDelegate.swift */; };
-		A4D3BB1320FCC549000D8D2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3BB1220FCC549000D8D2A /* ViewController.swift */; };
-		A4D3BB1620FCC549000D8D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D3BB1420FCC549000D8D2A /* Main.storyboard */; };
+		A4D3BB1320FCC549000D8D2A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3BB1220FCC549000D8D2A /* GameViewController.swift */; };
 		A4D3BB1820FCC54A000D8D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D3BB1720FCC54A000D8D2A /* Assets.xcassets */; };
 		A4D3BB1B20FCC54A000D8D2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D3BB1920FCC54A000D8D2A /* LaunchScreen.storyboard */; };
+		A4D3BB2320FCCCD0000D8D2A /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3BB2220FCCCD0000D8D2A /* Defaults.swift */; };
+		A4D3BB2520FDC0FB000D8D2A /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3BB2420FDC0FB000D8D2A /* Shape.swift */; };
+		A4D3BB2720FDC3EE000D8D2A /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3BB2620FDC3EE000D8D2A /* ShapeView.swift */; };
+		A4D3BB2E20FDC86C000D8D2A /* SquareShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3BB2D20FDC86C000D8D2A /* SquareShapeView.swift */; };
+		A4D3BB3020FDD4C4000D8D2A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3BB2F20FDD4C4000D8D2A /* GameView.swift */; };
+		A4D3BB3220FDD80A000D8D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D3BB3120FDD80A000D8D2A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A0CAE2DCD7B9FAD686A6429 /* Pods_Click_Right_Area.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Click_Right_Area.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		696ADEB1B73654993C408CCC /* Pods-Click Right Area.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Click Right Area.release.xcconfig"; path = "Pods/Target Support Files/Pods-Click Right Area/Pods-Click Right Area.release.xcconfig"; sourceTree = "<group>"; };
+		729D6F607938159B988C335A /* Pods-Click Right Area.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Click Right Area.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Click Right Area/Pods-Click Right Area.debug.xcconfig"; sourceTree = "<group>"; };
+		A484B09F210F17DC003BCCA0 /* CircleShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleShapeView.swift; sourceTree = "<group>"; };
+		A484B0A1210F19EF003BCCA0 /* ShapeViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeViewFactory.swift; sourceTree = "<group>"; };
+		A484B0A3210F1A7B003BCCA0 /* SquareShapeViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareShapeViewFactory.swift; sourceTree = "<group>"; };
+		A484B0A5210F1DF4003BCCA0 /* ShapeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeFactory.swift; sourceTree = "<group>"; };
+		A484B0A7210F1E2D003BCCA0 /* SquareShapeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareShapeFactory.swift; sourceTree = "<group>"; };
+		A484B0A9210F221A003BCCA0 /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		A484B0AB210F2849003BCCA0 /* CircleShapeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleShapeFactory.swift; sourceTree = "<group>"; };
+		A484B0AD210F2B93003BCCA0 /* CircleShapeViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleShapeViewFactory.swift; sourceTree = "<group>"; };
+		A484B0B1210F2E78003BCCA0 /* ShapeViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeViewBuilder.swift; sourceTree = "<group>"; };
+		A484B0B3210F31C3003BCCA0 /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
+		A484B0B5210F3395003BCCA0 /* TurnController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnController.swift; sourceTree = "<group>"; };
+		A484B0B8210F4012003BCCA0 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		A484B0BA210F4060003BCCA0 /* Level1Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1Strategy.swift; sourceTree = "<group>"; };
+		A484B0BC210F52CA003BCCA0 /* Level2Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2Strategy.swift; sourceTree = "<group>"; };
+		A484B0BE210F55A1003BCCA0 /* EquilateralTriangleShapeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilateralTriangleShapeFactory.swift; sourceTree = "<group>"; };
+		A484B0C0210F5651003BCCA0 /* EquilateralTriangleShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilateralTriangleShapeView.swift; sourceTree = "<group>"; };
+		A484B0C2210F5C3A003BCCA0 /* EquilateralTriangleShapeViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilateralTriangleShapeViewFactory.swift; sourceTree = "<group>"; };
+		A484B0C4210F5CEB003BCCA0 /* Level3Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3Strategy.swift; sourceTree = "<group>"; };
+		A484B0C621103A0E003BCCA0 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A484B0C821103AC7003BCCA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A484B0CA211058E8003BCCA0 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		A484B0CC21105CF7003BCCA0 /* CRALoggingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRALoggingTextField.swift; sourceTree = "<group>"; };
+		A484B0CE21106438003BCCA0 /* CRAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRAButton.swift; sourceTree = "<group>"; };
 		A4D3BB0D20FCC549000D8D2A /* Click Right Area.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Click Right Area.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D3BB1020FCC549000D8D2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4D3BB1220FCC549000D8D2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4D3BB1520FCC549000D8D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4D3BB1220FCC549000D8D2A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A4D3BB1720FCC54A000D8D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4D3BB1A20FCC54A000D8D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4D3BB1C20FCC54A000D8D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D3BB2220FCCCD0000D8D2A /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		A4D3BB2420FDC0FB000D8D2A /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		A4D3BB2620FDC3EE000D8D2A /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		A4D3BB2D20FDC86C000D8D2A /* SquareShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareShapeView.swift; sourceTree = "<group>"; };
+		A4D3BB2F20FDD4C4000D8D2A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A4D3BB3120FDD80A000D8D2A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +89,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B5D08389B4268C558788F0 /* Pods_Click_Right_Area.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42B64A6867F2201857DEBB82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A0CAE2DCD7B9FAD686A6429 /* Pods_Click_Right_Area.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B3AF99470735A7A7E54549F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				729D6F607938159B988C335A /* Pods-Click Right Area.debug.xcconfig */,
+				696ADEB1B73654993C408CCC /* Pods-Click Right Area.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A484B0AF210F2DE7003BCCA0 /* ShapeViewFactory */ = {
+			isa = PBXGroup;
+			children = (
+				A484B0A1210F19EF003BCCA0 /* ShapeViewFactory.swift */,
+				A484B0A3210F1A7B003BCCA0 /* SquareShapeViewFactory.swift */,
+				A484B0AD210F2B93003BCCA0 /* CircleShapeViewFactory.swift */,
+				A484B0C2210F5C3A003BCCA0 /* EquilateralTriangleShapeViewFactory.swift */,
+			);
+			path = ShapeViewFactory;
+			sourceTree = "<group>";
+		};
+		A484B0B0210F2DF8003BCCA0 /* ShapeFactory */ = {
+			isa = PBXGroup;
+			children = (
+				A484B0A5210F1DF4003BCCA0 /* ShapeFactory.swift */,
+				A484B0AB210F2849003BCCA0 /* CircleShapeFactory.swift */,
+				A484B0A7210F1E2D003BCCA0 /* SquareShapeFactory.swift */,
+				A484B0BE210F55A1003BCCA0 /* EquilateralTriangleShapeFactory.swift */,
+			);
+			path = ShapeFactory;
+			sourceTree = "<group>";
+		};
+		A484B0B7210F3FF4003BCCA0 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				A484B0B8210F4012003BCCA0 /* Strategy.swift */,
+				A484B0BA210F4060003BCCA0 /* Level1Strategy.swift */,
+				A484B0BC210F52CA003BCCA0 /* Level2Strategy.swift */,
+				A484B0C4210F5CEB003BCCA0 /* Level3Strategy.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
 		A4D3BB0420FCC549000D8D2A = {
 			isa = PBXGroup;
 			children = (
 				A4D3BB0F20FCC549000D8D2A /* Click Right Area */,
 				A4D3BB0E20FCC549000D8D2A /* Products */,
+				4B3AF99470735A7A7E54549F /* Pods */,
+				42B64A6867F2201857DEBB82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +167,73 @@
 		A4D3BB0F20FCC549000D8D2A /* Click Right Area */ = {
 			isa = PBXGroup;
 			children = (
+				A4D3BB2920FDC77A000D8D2A /* Model */,
+				A4D3BB2A20FDC78C000D8D2A /* View */,
+				A4D3BB2820FDC762000D8D2A /* ViewController */,
+				A4D3BB2B20FDC819000D8D2A /* Util */,
 				A4D3BB1020FCC549000D8D2A /* AppDelegate.swift */,
-				A4D3BB1220FCC549000D8D2A /* ViewController.swift */,
-				A4D3BB1420FCC549000D8D2A /* Main.storyboard */,
 				A4D3BB1720FCC54A000D8D2A /* Assets.xcassets */,
 				A4D3BB1920FCC54A000D8D2A /* LaunchScreen.storyboard */,
 				A4D3BB1C20FCC54A000D8D2A /* Info.plist */,
+				A484B0C821103AC7003BCCA0 /* GoogleService-Info.plist */,
+				A4D3BB3120FDD80A000D8D2A /* Main.storyboard */,
 			);
 			path = "Click Right Area";
+			sourceTree = "<group>";
+		};
+		A4D3BB2820FDC762000D8D2A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A4D3BB1220FCC549000D8D2A /* GameViewController.swift */,
+				A484B0C621103A0E003BCCA0 /* StartViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A4D3BB2920FDC77A000D8D2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4D3BB2420FDC0FB000D8D2A /* Shape.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4D3BB2A20FDC78C000D8D2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4D3BB2620FDC3EE000D8D2A /* ShapeView.swift */,
+				A4D3BB2D20FDC86C000D8D2A /* SquareShapeView.swift */,
+				A484B09F210F17DC003BCCA0 /* CircleShapeView.swift */,
+				A484B0C0210F5651003BCCA0 /* EquilateralTriangleShapeView.swift */,
+				A4D3BB2F20FDD4C4000D8D2A /* GameView.swift */,
+				A484B0CA211058E8003BCCA0 /* StartView.swift */,
+				A484B0CC21105CF7003BCCA0 /* CRALoggingTextField.swift */,
+				A484B0CE21106438003BCCA0 /* CRAButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4D3BB2B20FDC819000D8D2A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A484B0B7210F3FF4003BCCA0 /* Strategy */,
+				A4D3BB2C20FDC827000D8D2A /* Factory */,
+				A4D3BB2220FCCCD0000D8D2A /* Defaults.swift */,
+				A484B0A9210F221A003BCCA0 /* CGFloatExtension.swift */,
+				A484B0B1210F2E78003BCCA0 /* ShapeViewBuilder.swift */,
+				A484B0B3210F31C3003BCCA0 /* Turn.swift */,
+				A484B0B5210F3395003BCCA0 /* TurnController.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A4D3BB2C20FDC827000D8D2A /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A484B0B0210F2DF8003BCCA0 /* ShapeFactory */,
+				A484B0AF210F2DE7003BCCA0 /* ShapeViewFactory */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4D3BB1F20FCC54A000D8D2A /* Build configuration list for PBXNativeTarget "Click Right Area" */;
 			buildPhases = (
+				CDC143477163B46871BFEC66 /* [CP] Check Pods Manifest.lock */,
 				A4D3BB0920FCC549000D8D2A /* Sources */,
 				A4D3BB0A20FCC549000D8D2A /* Frameworks */,
 				A4D3BB0B20FCC549000D8D2A /* Resources */,
+				B45C39544EA22D51B48DBB00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +296,100 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D3BB3220FDD80A000D8D2A /* Main.storyboard in Resources */,
 				A4D3BB1B20FCC54A000D8D2A /* LaunchScreen.storyboard in Resources */,
 				A4D3BB1820FCC54A000D8D2A /* Assets.xcassets in Resources */,
-				A4D3BB1620FCC549000D8D2A /* Main.storyboard in Resources */,
+				A484B0C921103AC7003BCCA0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B45C39544EA22D51B48DBB00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Click Right Area/Pods-Click Right Area-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ConstraintLib/ConstraintLib.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConstraintLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Click Right Area/Pods-Click Right Area-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC143477163B46871BFEC66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Click Right Area-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4D3BB0920FCC549000D8D2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4D3BB1320FCC549000D8D2A /* ViewController.swift in Sources */,
+				A484B0AC210F2849003BCCA0 /* CircleShapeFactory.swift in Sources */,
+				A484B0B4210F31C3003BCCA0 /* Turn.swift in Sources */,
+				A4D3BB2720FDC3EE000D8D2A /* ShapeView.swift in Sources */,
+				A4D3BB2320FCCCD0000D8D2A /* Defaults.swift in Sources */,
+				A484B0C5210F5CEB003BCCA0 /* Level3Strategy.swift in Sources */,
+				A4D3BB1320FCC549000D8D2A /* GameViewController.swift in Sources */,
+				A484B0B2210F2E78003BCCA0 /* ShapeViewBuilder.swift in Sources */,
 				A4D3BB1120FCC549000D8D2A /* AppDelegate.swift in Sources */,
+				A484B0A4210F1A7B003BCCA0 /* SquareShapeViewFactory.swift in Sources */,
+				A484B0B6210F3395003BCCA0 /* TurnController.swift in Sources */,
+				A484B0B9210F4012003BCCA0 /* Strategy.swift in Sources */,
+				A484B0AA210F221A003BCCA0 /* CGFloatExtension.swift in Sources */,
+				A484B0BB210F4060003BCCA0 /* Level1Strategy.swift in Sources */,
+				A4D3BB2520FDC0FB000D8D2A /* Shape.swift in Sources */,
+				A484B0CD21105CF7003BCCA0 /* CRALoggingTextField.swift in Sources */,
+				A484B0AE210F2B93003BCCA0 /* CircleShapeViewFactory.swift in Sources */,
+				A4D3BB2E20FDC86C000D8D2A /* SquareShapeView.swift in Sources */,
+				A484B0C3210F5C3A003BCCA0 /* EquilateralTriangleShapeViewFactory.swift in Sources */,
+				A484B0A0210F17DC003BCCA0 /* CircleShapeView.swift in Sources */,
+				A484B0CB211058E8003BCCA0 /* StartView.swift in Sources */,
+				A484B0BD210F52CA003BCCA0 /* Level2Strategy.swift in Sources */,
+				A484B0A6210F1DF4003BCCA0 /* ShapeFactory.swift in Sources */,
+				A484B0C1210F5651003BCCA0 /* EquilateralTriangleShapeView.swift in Sources */,
+				A484B0CF21106438003BCCA0 /* CRAButton.swift in Sources */,
+				A484B0C721103A0E003BCCA0 /* StartViewController.swift in Sources */,
+				A484B0BF210F55A1003BCCA0 /* EquilateralTriangleShapeFactory.swift in Sources */,
+				A484B0A8210F1E2D003BCCA0 /* SquareShapeFactory.swift in Sources */,
+				A484B0A2210F19EF003BCCA0 /* ShapeViewFactory.swift in Sources */,
+				A4D3BB3020FDD4C4000D8D2A /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A4D3BB1420FCC549000D8D2A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4D3BB1520FCC549000D8D2A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A4D3BB1920FCC54A000D8D2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,6 +517,7 @@
 		};
 		A4D3BB2020FCC54A000D8D2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729D6F607938159B988C335A /* Pods-Click Right Area.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +536,7 @@
 		};
 		A4D3BB2120FCC54A000D8D2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696ADEB1B73654993C408CCC /* Pods-Click Right Area.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
